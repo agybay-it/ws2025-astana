@@ -30,9 +30,9 @@ API доступен по адресу: http://module-b-api.wsk.com
 4. Setting
 
 **API данных:**
-- /carparks.json
-- /events.json
-- /weather.json
+- /module_b_api.php/carparks.json
+- /module_b_api.php/events.json
+- /module_b_api.php/weather.json
 
 **Постраничная навигация (пагинация):**
 API событий поддерживает пагинацию.
@@ -119,7 +119,7 @@ JavaScript-код (`/media/module-b/geolocation_distance.js`) для вычис�
 После выбора даты начала и/или окончания список автоматически обновляется, отображая результаты нового запроса.
 
 Формат запроса к API:
-`/events.json?beginning_date=YYYY-MM-DD&ending_date=YYYY-MM-DD`
+`/module_b_api.php/events.json?beginning_date=YYYY-MM-DD&ending_date=YYYY-MM-DD`
 
 **Бесконечная прокрутка (Infinite scrolling):**
 
